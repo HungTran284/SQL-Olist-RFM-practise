@@ -10,7 +10,7 @@
 
 ## Practise
 
-## About Category and product:
+## 1. About Category and product:
 
 ### Question 1: Which product categories is the business currently selling?
 
@@ -77,7 +77,7 @@ ORDER BY total_items_sold DESC;
 ### Result <br>
 <img width="942" height="676" alt="image" src="https://github.com/user-attachments/assets/df142abe-64be-473b-8b26-2a477b9b7ef9" />
 
-## About Customer purchase behavior
+## 2. About Customer purchase behavior
 ### Question 4: What is the Average Order Value (AOV) per customer?
 ```sql
 WITH order_total AS (
@@ -151,7 +151,7 @@ ORDER BY total_revenue DESC;
 ### Result <br>
 <img width="437" height="682" alt="image" src="https://github.com/user-attachments/assets/72e5ca52-9537-4965-b0b6-90a9dbdff70b" />
 
-## About Cohort Retention
+## 3. About Cohort Retention
 ### Question 8: How many new customers join each month (customer cohort size)?
 ```sql
 WITH first_purchase AS (
@@ -173,7 +173,7 @@ ORDER BY cohort_month;
 ### Result <br>
 <img width="437" height="682" alt="image" src="https://github.com/user-attachments/assets/72e5ca52-9537-4965-b0b6-90a9dbdff70b" />
 
-## About RFM
+## 4. About RFM Analysis
 ### Question 9: How can customers be segmented based on RFM scores (Recency, Frequency, Monetary)?
 ```sql
 WITH last_ref AS (
